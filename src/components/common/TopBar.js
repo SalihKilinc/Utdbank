@@ -1,9 +1,9 @@
-import React from 'react'
-import Menu from './Menu'
+import React from "react";
+import Menu from "./Menu";
 
 const TopBar = () => {
-    return (
-        <div className="fixed-top">
+  return (
+    <div className="fixed-top">
       <div className="navbar-area">
         <div className="mobile-nav">
           <a href="index.html" className="logo">
@@ -18,10 +18,10 @@ const TopBar = () => {
           </div>
         </div>
 
-        <Menu/>
+        <Menu />
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default TopBar
+export default TopBar;
