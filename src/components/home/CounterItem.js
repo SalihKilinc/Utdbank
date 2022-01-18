@@ -9,7 +9,7 @@ const CounterItem = ({number,sign,title}) => {
         </h3>
         <p>{title}</p>
         <div className="counter-loader">
-                <span>.</span>
+                <span></span>
                 <span></span>
                 <span></span>
                 </div>
