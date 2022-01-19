@@ -7,7 +7,9 @@ import Footer from "../components/common/Footer";
 const PricingPage = () => {
   return (
     <div>
+
       <PageHeader image="assets/images/blog.png" title="Pricing" />
+
       <Pricing />
     </div>
   );

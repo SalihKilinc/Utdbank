@@ -1,5 +1,9 @@
 import React from "react";
+
+import UserMenu from "./UserMenu";
+import { Link } from react-router-dom
 import { Link } from "react-router-dom";
+
 const Menu = () => {
   return (
     <div className="main-nav">
@@ -18,6 +22,29 @@ const Menu = () => {
                   Home
                 </Link>
               </li>
+
+
+              <li className="nav-item">
+                <Link to="aboutus.html" className="nav-link">
+                  About Us
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="services.html" className="nav-link">
+                  Services
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="pricing.html" className="nav-link">
+                  Pricing
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link to="contactus.html" className="nav-link">
+
               <li className="nav-item">
                 <Link to="/aboutUs" className="nav-link">
                   About Us
@@ -35,10 +62,16 @@ const Menu = () => {
               </li>
               <li className="nav-item">
                 <Link to="/contactUs" className="nav-link">
+
                   Contact Us
                 </Link>
               </li>
             </ul>
+
+          </div>
+
+          <UserMenu />
+
           </div>
           <div className="navbar-option">
             <div className="navbar-option-item">
@@ -52,9 +85,14 @@ const Menu = () => {
               </a>
             </div>
           </div>
+
         </nav>
       </div>
     </div>
   );
 };
+
+
+
+
 export default Menu;

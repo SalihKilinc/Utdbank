@@ -10,7 +10,9 @@ function App() {
   return (
     <BrowserRouter>
       <TopBar />
+
       <Menu />
+
       <CustomRoutes />
       <Footer />
     </BrowserRouter>
