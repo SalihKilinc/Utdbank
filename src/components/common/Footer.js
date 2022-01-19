@@ -30,17 +30,17 @@ const Footer = () => {
                 </div>
                 <ul className="footer-details footer-list">
                   <li>
-                    <Link to="faqs.html">FAQ's</Link>
+                    <Link to="/faqs">FAQ's</Link>
                   </li>
                   <li>
-                    <Link to="privacy-policy.html">Privacy Policy</Link>
+                    <Link to="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link to="terms-conditions.html">Terms & Conditions</Link>
+                    <Link to="/terms-conditions">Terms & Conditions</Link>
                   </li>
 
                   <li>
-                    <Link to="contact-us.html">Contact Us</Link>
+                    <Link to="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -52,16 +52,16 @@ const Footer = () => {
                 </div>
                 <ul className="footer-details footer-list">
                   <li>
-                    <Link to="about-us.html">About Us</Link>
+                    <Link to="/about-us">About Us</Link>
                   </li>
                   <li>
-                    <Link to="services.html">Services</Link>
+                    <Link to="/services">Services</Link>
                   </li>
                   <li>
-                    <Link to="features.html">Features</Link>
+                    <Link to="/features">Features</Link>
                   </li>
                   <li>
-                    <Link to="pricing.html">Our Pricing</Link>
+                    <Link to="/pricing">Our Pricing</Link>
                   </li>
                 </ul>
               </div>
