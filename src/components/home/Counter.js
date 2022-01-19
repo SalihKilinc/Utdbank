@@ -2,7 +2,7 @@ import React from 'react'
 import CounterItem from './CounterItem'
 import SectionTitle from './SectionTitle'
 
-const Counter = () => {
+const Counter = (props) => {
     return (
         
            <section className="counter-section pt-100 pb-70">
@@ -38,4 +38,3 @@ const Counter = () => {
 };
 
 export default Counter;
-

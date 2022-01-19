@@ -2,7 +2,7 @@ import React from 'react'
 import SectionTitle from './SectionTitle'
 import ServiceItem from './ServiceItem'
 
-const Services = () => {
+const Services = (props) => {
     return (
         <section className="home-service-section pt-100 pb-70">
       <div className="container">
