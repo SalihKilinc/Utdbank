@@ -7,11 +7,9 @@ import Footer from "../components/common/Footer";
 const PricingPage = () => {
   return (
     <div>
-      <PageHeader
-        resim="background-image: url(assets/images/blog.png)"
-        baslik="Pricing"
-        konu="Pricing"
-      />
+
+      <PageHeader image="assets/images/blog.png" title="Pricing" />
+
       <Pricing />
     </div>
   );

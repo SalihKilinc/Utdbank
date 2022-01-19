@@ -1,17 +1,21 @@
 import React from "react";
-
-const PageHeader = (props) => {
+import { Link } from "react-router-dom";
+const PageHeader = ({ image, title }) => {
+  console.log(image);
   return (
-    <header class="page-title page-bg" style={props.resim}>
-      <div class="container">
-        <div class="page-title-inner">
-          <div class="section-title">
-            <h1>{props.baslik}</h1>
-            <ul class="page-breadcrumbs">
+    <header
+      className="page-title page-bg"
+      style={{ backgroundImage: `url(${image})` }}
+    >
+      <div className="container">
+        <div className="page-title-inner">
+          <div className="section-title">
+            <h1>{title}</h1>
+            <ul className="page-breadcrumbs">
               <li>
-                <a href="index.html">Home</a>
+                <Link to={"/"}>Home</Link>
               </li>
-              <li>{props.konu}</li>
+              <li>{title}</li>
             </ul>
           </div>
         </div>
@@ -19,5 +23,4 @@ const PageHeader = (props) => {
     </header>
   );
 };
-
 export default PageHeader;

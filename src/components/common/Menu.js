@@ -1,6 +1,8 @@
 import React from "react";
+
 import UserMenu from "./UserMenu";
 import { Link } from react-router-dom
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -20,6 +22,7 @@ const Menu = () => {
                   Home
                 </Link>
               </li>
+
 
               <li className="nav-item">
                 <Link to="aboutus.html" className="nav-link">
@@ -41,17 +44,55 @@ const Menu = () => {
 
               <li className="nav-item">
                 <Link to="contactus.html" className="nav-link">
+
+              <li className="nav-item">
+                <Link to="/aboutUs" className="nav-link">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/services" className="nav-link">
+                  Services
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/pricing" className="nav-link">
+                  Pricing
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contactUs" className="nav-link">
+
                   Contact Us
                 </Link>
               </li>
             </ul>
+
           </div>
 
           <UserMenu />
+
+          </div>
+          <div className="navbar-option">
+            <div className="navbar-option-item">
+              <a
+                href="authentication.html"
+                className="btn1 blue-gradient btn-with-image text-nowrap"
+              >
+                <i className="flaticon-login"></i>
+                <i className="flaticon-login"></i>
+                Sign Up / Login
+              </a>
+            </div>
+          </div>
+
         </nav>
       </div>
     </div>
   );
 };
+
+
+
 
 export default Menu;
