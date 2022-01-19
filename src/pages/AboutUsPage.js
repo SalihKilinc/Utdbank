@@ -9,7 +9,11 @@ const AboutUsPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader />
+      <PageHeader
+        resim="background-image: url(assets/images/about-page.png)"
+        baslik="About us"
+        konu="About us"
+      />
       <About />
       <Retail />
       <Footer />

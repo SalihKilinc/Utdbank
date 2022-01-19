@@ -9,7 +9,11 @@ const ServicesPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader />
+      <PageHeader
+        resim="background-image: url(assets/images/terms.png)"
+        baslik="Services"
+        konu="Services"
+      />
       <SectionTitle />
       <Services />
       <Footer />

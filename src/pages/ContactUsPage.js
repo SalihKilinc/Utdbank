@@ -9,7 +9,11 @@ const ContactUsPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader />
+      <PageHeader
+        resim="background-image: url(assets/images/contact-us-bg.png)"
+        baslik="Contact Us"
+        konu="Contact Us"
+      />
       <Contact />
       <ContactForm />
       <Footer />
