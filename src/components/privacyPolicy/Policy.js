@@ -3,10 +3,10 @@ import React from "react";
 const Policy = () => {
   return (
     <div>
-      <section class="terms-page-section p-tb-100">
-        <div class="container">
-          <div class="terms-privacy">
-            <h3 class="sub-section-title">Our Privacy Policy</h3>
+      <section className="terms-page-section p-tb-100">
+        <div className="container">
+          <div className="terms-privacy">
+            <h3 className="sub-section-title">Our Privacy Policy</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -19,10 +19,10 @@ const Policy = () => {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-            <h3 class="sub-section-title">
+            <h3 className="sub-section-title">
               How We Collect and Use Information
             </h3>
-            <ul class="terms-privacy-list">
+            <ul className="terms-privacy-list">
               <li>
                 <p>
                   <strong>01.</strong>Lorem ipsum dolor sit amet consectetur
@@ -74,7 +74,7 @@ const Policy = () => {
                 </p>
               </li>
             </ul>
-            <h3 class="sub-section-title">Additional Policy</h3>
+            <h3 className="sub-section-title">Additional Policy</h3>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
