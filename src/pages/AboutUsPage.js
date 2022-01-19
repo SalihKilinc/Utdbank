@@ -6,7 +6,7 @@ import Retail from "../components/aboutUs/Retail";
 const AboutUsPage = () => {
   return (
     <>
-      <PageHeader image="assets/images/about-page.png" title="About Us" />
+      <PageHeader image="assets/images/about-page.png" title="about" />
       <About />
       <Retail />
     </>
