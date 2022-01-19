@@ -9,7 +9,11 @@ const FaqsPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader />
+      <PageHeader
+        resim="background-image: url(assets/images/blog.png)"
+        baslik="FAQ's"
+        konu="Faq's"
+      />
       <Faq />
       <ContactForm />
       <Footer />

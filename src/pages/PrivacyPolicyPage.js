@@ -8,7 +8,11 @@ const PrivacyPolicyPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader />
+      <PageHeader
+        resim="background-image: url(assets/images/terms.png)"
+        baslik="Privacy Policy"
+        konu="Privacy Policy"
+      />
       <Policy />
       <Footer />
     </div>
