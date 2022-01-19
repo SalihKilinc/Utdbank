@@ -7,14 +7,12 @@ import Footer from "../components/common/Footer";
 const PricingPage = () => {
   return (
     <div>
-      <TopBar />
       <PageHeader
         resim="background-image: url(assets/images/blog.png)"
         baslik="Pricing"
         konu="Pricing"
       />
       <Pricing />
-      <Footer />
     </div>
   );
 };

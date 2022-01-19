@@ -15,7 +15,6 @@ import Footer from "../components/common/Footer";
 const HomePage = () => {
   return (
     <>
-      <TopBar />
       <Banner />
       <BannerContact />
       <Features />
@@ -26,7 +25,6 @@ const HomePage = () => {
       <Facility />
       <HomeContact />
       <Testimonals />
-      <Footer />
     </>
   );
 };

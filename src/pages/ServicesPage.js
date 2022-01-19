@@ -8,7 +8,6 @@ import Footer from "../components/common/Footer";
 const ServicesPage = () => {
   return (
     <div>
-      <TopBar />
       <PageHeader
         resim="background-image: url(assets/images/terms.png)"
         baslik="Services"
@@ -16,7 +15,6 @@ const ServicesPage = () => {
       />
       <SectionTitle />
       <Services />
-      <Footer />
     </div>
   );
 };

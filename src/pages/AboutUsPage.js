@@ -8,7 +8,6 @@ import Footer from "../components/common/Footer";
 const AboutUsPage = () => {
   return (
     <div>
-      <TopBar />
       <PageHeader
         resim="background-image: url(assets/images/about-page.png)"
         baslik="About us"
@@ -16,7 +15,6 @@ const AboutUsPage = () => {
       />
       <About />
       <Retail />
-      <Footer />
     </div>
   );
 };

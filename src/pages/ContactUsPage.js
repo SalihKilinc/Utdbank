@@ -8,7 +8,6 @@ import Footer from "../components/common/Footer";
 const ContactUsPage = () => {
   return (
     <div>
-      <TopBar />
       <PageHeader
         resim="background-image: url(assets/images/contact-us-bg.png)"
         baslik="Contact Us"
@@ -16,7 +15,6 @@ const ContactUsPage = () => {
       />
       <Contact />
       <ContactForm />
-      <Footer />
     </div>
   );
 };
