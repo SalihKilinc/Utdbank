@@ -8,11 +8,7 @@ const TermsPage = () => {
   return (
     <div>
       <TopBar />
-      <PageHeader
-        resim="background-image: url(assets/images/terms.png)"
-        baslik="Terms & Conditions"
-        konu="Terms & Conditions"
-      />
+      <PageHeader image="assets/images/terms.png" title="Terms & Conditions" />
       <Terms />
       <Footer />
     </div>

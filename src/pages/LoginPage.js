@@ -5,8 +5,6 @@ const LoginPage = () => {
   return (
     <>
       <PageHeader />
-
-      <PageHeader />
     </>
   );
 };

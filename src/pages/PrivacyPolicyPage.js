@@ -7,14 +7,8 @@ import Footer from "../components/common/Footer";
 const PrivacyPolicyPage = () => {
   return (
     <div>
-      <TopBar />
-      <PageHeader
-        resim="background-image: url(assets/images/terms.png)"
-        baslik="Privacy Policy"
-        konu="Privacy Policy"
-      />
+      <PageHeader image="assets/images/terms.png" title="Privacy Policy" />
       <Policy />
-      <Footer />
     </div>
   );
 };

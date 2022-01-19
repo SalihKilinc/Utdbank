@@ -1,5 +1,4 @@
 import React from "react";
-import TopBar from "../components/common/TopBar";
 import Banner from "../components/home/Banner";
 import BannerContact from "../components/home/BannerContact";
 import Features from "../components/home/Features";
@@ -10,12 +9,10 @@ import Pricing from "../components/home/Pricing";
 import Facility from "../components/home/Facility";
 import HomeContact from "../components/home/HomeContact";
 import Testimonals from "../components/home/Testimonals";
-import Footer from "../components/common/Footer";
 
 const HomePage = () => {
   return (
     <>
-      <TopBar />
       <Banner />
       <BannerContact />
       <Features />
@@ -26,7 +23,6 @@ const HomePage = () => {
       <Facility />
       <HomeContact />
       <Testimonals />
-      <Footer />
     </>
   );
 };
