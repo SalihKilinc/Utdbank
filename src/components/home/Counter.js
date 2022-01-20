@@ -2,7 +2,7 @@ import React from "react";
 import CounterItem from "./CounterItem";
 import SectionTitle from "./SectionTitle";
 
-const Counter = (props) => {
+const Counter = () => {
   return (
     <section className="counter-section pt-100 pb-70">
       <div className="container">

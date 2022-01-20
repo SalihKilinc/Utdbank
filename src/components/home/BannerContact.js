@@ -1,7 +1,7 @@
 import React from "react";
 import BannerContactItem from "./BannerContactItem";
 
-const BannerContact = (props) => {
+const BannerContact = () => {
   return (
     <>
       <div class="header-suuport">

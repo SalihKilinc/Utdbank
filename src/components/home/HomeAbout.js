@@ -1,5 +1,5 @@
 import React from "react";
-import HomeAboutItem from "./AboutItem";
+import HomeAboutItem from "./HomeAboutItem";
 
 const HomeAbout = () => {
   return (
