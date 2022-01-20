@@ -6,9 +6,7 @@ import Services from "../components/services/Services";
 const ServicesPage = () => {
   return (
     <div>
-
       <PageHeader image="assets/images/terms.png" title="Services" />
-
       <SectionTitle />
       <Services />
     </div>

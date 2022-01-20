@@ -6,10 +6,7 @@ import ContactForm from "../components/contactUs/ContactForm";
 const ContactUsPage = () => {
   return (
     <div>
-
-    
       <PageHeader image="assets/images/contact-us-bg.png" title="Contact Us" />
-
       <Contact />
       <ContactForm />
     </div>
