@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Testimonal from "./Testimonal";
-
 const Testimonals = (props) => {
   return (
     <section className="home-client-section pt-100 pb-50">
@@ -10,7 +9,6 @@ const Testimonals = (props) => {
           title="Clients Feedback"
           description=" Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         />
-
         <div className="client-carousel-content">
           <div className="client-carousel owl-carousel owl-theme">
             <Testimonal
@@ -19,7 +17,6 @@ const Testimonals = (props) => {
               d1="Devit M. kolin"
               d2="CEO & Founder"
             />
-
             <Testimonal
               image="assets/images/carousel-2.png"
               title=" Very ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae."
@@ -32,5 +29,4 @@ const Testimonals = (props) => {
     </section>
   );
 };
-
 export default Testimonals;

@@ -1,5 +1,4 @@
 import React from "react";
-
 const Testimonal = ({ image, title, d1, d2 }) => {
   return (
     <div className="item">
@@ -45,5 +44,4 @@ const Testimonal = ({ image, title, d1, d2 }) => {
     </div>
   );
 };
-
 export default Testimonal;

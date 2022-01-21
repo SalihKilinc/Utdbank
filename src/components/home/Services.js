@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import ServiceItem from "./ServiceItem";
-
 const Services = () => {
   return (
     <section className="home-service-section pt-100 pb-70">
@@ -26,7 +25,6 @@ const Services = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-sm-12 col-md-6 col-lg-4">
               <ServiceItem
                 image="assets/images/service1.png"
@@ -36,7 +34,6 @@ const Services = () => {
                 linkTitle="Read More +"
               />
             </div>
-
             <div className="col-sm-12 col-md-6 col-lg-4">
               <ServiceItem
                 image="assets/images/service2.png"
@@ -46,7 +43,6 @@ const Services = () => {
                 linkTitle="Read More +"
               />
             </div>
-
             <div className="col-sm-12 col-md-6 col-lg-4">
               <ServiceItem
                 image="assets/images/service3.png"
@@ -56,7 +52,6 @@ const Services = () => {
                 linkTitle="Read More +"
               />
             </div>
-
             <div className="col-sm-12 col-md-6 col-lg-4">
               <ServiceItem
                 image="assets/images/service4.png"
@@ -66,7 +61,6 @@ const Services = () => {
                 linkTitle="Read More +"
               />
             </div>
-
             <div className="col-sm-12 offset-md-3 col-md-6 offset-lg-0 col-lg-4">
               <ServiceItem
                 image="assets/images/service5.png"
@@ -82,5 +76,4 @@ const Services = () => {
     </section>
   );
 };
-
 export default Services;
