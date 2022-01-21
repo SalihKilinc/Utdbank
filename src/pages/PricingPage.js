@@ -7,10 +7,8 @@ import Footer from "../components/common/Footer";
 const PricingPage = () => {
   return (
     <div>
-      <TopBar />
-      <PageHeader />
+      <PageHeader image="assets/images/blog.png" title="Pricing" />
       <Pricing />
-      <Footer />
     </div>
   );
 };

@@ -7,10 +7,8 @@ import Footer from "../components/common/Footer";
 const TermsPage = () => {
   return (
     <div>
-      <TopBar />
-      <PageHeader />
+      <PageHeader image="assets/images/terms.png" title="Terms & Conditions" />
       <Terms />
-      <Footer />
     </div>
   );
 };
