@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const ServiceItem = ({ image, title, description }) => {
   return (
     <div class="home-service-item fluid-height">
@@ -13,6 +14,7 @@ const ServiceItem = ({ image, title, description }) => {
         </div>
       </div>
     </div>
+
   );
 };
 
