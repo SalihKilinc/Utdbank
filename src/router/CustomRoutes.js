@@ -22,12 +22,12 @@ const CustomRoutes = () => {
 
       {/*ALL USER */}
       <Route path="/" element={<HomePage />} />
-      <Route path="/aboutUs" element={<AboutUsPage />} />
+      <Route path="/about-us" element={<AboutUsPage />} />
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/features" element={<FeaturesPage />} />
 
       <Route path="/pricing" element={<PricingPage />} />
-      <Route path="/contactUs" element={<ContactUsPage />} />
+      <Route path="/contact-us" element={<ContactUsPage />} />
       <Route path="/faqs" element={<FaqsPage />} />
       <Route path="/terms-conditions" element={<TermsPage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
